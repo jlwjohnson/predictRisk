@@ -2,6 +2,10 @@
 
 Machine Learning python model to predict low, medium or high risk for financial loans
 
+## Background
+
+The model uses the ```sklearn``` package to train and then ```LogisticRegression``` and ```predict``` to provide the prediction of level of risk.
+
 ## Training for model
 The model was trained using a script that created 500,000 rows with the following values:
 
